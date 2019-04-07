@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="DataTables/DataTables-1.10.18/css/jquery.dataTables.min.css">
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <title>Webmon Admin</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Webmon Admin</a>
+        </div>
+        
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Dinas</a></li>
+            <li><a href="#">Instansi</a></li>
+            <li><a href="#">Stasiun</a></li>
+            <li><a href="#">Logger</a></li>
+            <li><a href="#">Channel</a></li>
+            <li><a href="#">User</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><p class="navbar-text">Bakwan Jagung</p></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <table id="example" class="display compact" style="width:100%; line-height: 10px;">
+        <thead>
+          <th>Instansi</th>
+          <th>Center Y</th>
+          <th>Center X</th>
+          <th>Header</th>
+        </thead>
+      </table>
+    </div>
+    
+    
+    <script>
+      $(document).ready(function() {
+        $('#example').DataTable({
+          "processing": true, 
+          "serverSide": true, 
+          "ajax": "http://localhost:4567/coba"
+        });
+      });
+      
+      // "http://localhost/moni/standard/monitoring/log.php"
+      // "http://localhost/bootstrap/coba1/source3.php"
+    </script>
+  </body>
+</html>

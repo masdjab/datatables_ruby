@@ -1,0 +1,135 @@
+{
+  "rack.version"=>[1, 3], 
+  "rack.errors"=>#<IO:<STDERR>>, 
+  "rack.multithread"=>true, 
+  "rack.multiprocess"=>false, 
+  "rack.run_once"=>false, 
+  "SCRIPT_NAME"=>"", 
+  "QUERY_STRING"=>
+    "draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true" \
+    "&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=" \
+    "&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false" \
+    "&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true" \
+    "&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=" \
+    "&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false" \
+    "&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1554569408437", 
+  "SERVER_PROTOCOL"=>"HTTP/1.1", 
+  "SERVER_SOFTWARE"=>"puma 3.12.1 Llamas in Pajamas", 
+  "GATEWAY_INTERFACE"=>"CGI/1.2", 
+  "REQUEST_METHOD"=>"GET", 
+  "REQUEST_PATH"=>"/coba", 
+  "REQUEST_URI"=>
+    "/coba?draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true" \
+    "&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=" \
+    "&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false" \
+    "&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true" \
+    "&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=" \
+    "&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false" \
+    "&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1554569408437", 
+  "HTTP_VERSION"=>"HTTP/1.1", 
+  "HTTP_HOST"=>"localhost:4567", 
+  "HTTP_CONNECTION"=>"keep-alive", 
+  "HTTP_ACCEPT"=>"application/json, text/javascript, */*; q=0.01", 
+  "HTTP_ORIGIN"=>"null", 
+  "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36", 
+  "HTTP_ACCEPT_ENCODING"=>"gzip, deflate, br", 
+  "HTTP_ACCEPT_LANGUAGE"=>"en-US,en;q=0.9", 
+  "SERVER_NAME"=>"localhost", 
+  "SERVER_PORT"=>"4567", 
+  "PATH_INFO"=>"/coba", 
+  "REMOTE_ADDR"=>"::1", 
+  "puma.socket"=>#<TCPSocket:fd 9, AF_INET6, ::1, 4567>, 
+  "rack.hijack?"=>true, 
+  "rack.hijack"=>#<Puma::Client:0x2d8f4b4 @ready=true>, 
+  "rack.input"=>#<Puma::NullIO:0x05ac24c0>, 
+  "rack.url_scheme"=>"http", 
+  "rack.after_reply"=>[], 
+  "puma.config"=>
+    #<Puma::Configuration:0x05b03590 
+      @options=#<Puma::UserFileDefaultOptions:0x05b034b8 
+      @user_options=
+        {
+          :Port=>4567, 
+          :Host=>"localhost", 
+          :log_requests=>false, 
+          :binds=>["tcp://localhost:4567"], 
+          :app=>Sinatra::Application, 
+          :environment=>"development"
+        }, 
+      @file_options={}, 
+      @default_options=
+        {
+          :min_threads=>0, 
+          :max_threads=>16, 
+          :log_requests=>false, 
+          :debug=>false, 
+          :binds=>["tcp://0.0.0.0:9292"], 
+          :workers=>0, 
+          :daemon=>false, 
+          :mode=>:http, 
+          :worker_timeout=>60, 
+          :worker_boot_timeout=>60, 
+          :worker_shutdown_timeout=>30, 
+          :remote_address=>:socket, 
+          :tag=>"coba1", 
+          :environment=>"development", 
+          :rackup=>"config.ru", 
+          :logger=>#<IO:<STDOUT>>, 
+          :persistent_timeout=>20, 
+          :first_data_timeout=>30, 
+          :Verbose=>false, 
+          :Silent=>false
+        }
+      >, 
+      @plugins=
+        #<Puma::PluginLoader:0x05b03488 
+          @instances=[]>, 
+          @user_dsl=
+            #<Puma::DSL:0x05b03458 
+              @config=#<Puma::Configuration:0x05b03590 ...>, 
+              @options=
+                {
+                  :Port=>4567, 
+                  :Host=>"localhost", 
+                  :log_requests=>false, 
+                  :binds=>["tcp://localhost:4567"], 
+                  :app=>Sinatra::Application, 
+                  :environment=>"development"
+                }, 
+              @plugins=[]
+            >, 
+          @file_dsl=
+            #<Puma::DSL:0x05b03428 
+            @config=#<Puma::Configuration:0x05b03590 ...>, 
+            @options={}, 
+            @plugins=[]>, 
+            @default_dsl=
+              #<Puma::DSL:0x05b033f8 
+                @config=#<Puma::Configuration:0x05b03590 ...>, 
+                @options=
+                  {
+                    :min_threads=>0, 
+                    :max_threads=>16, 
+                    :log_requests=>false, 
+                    :debug=>false, 
+                    :binds=>["tcp://0.0.0.0:9292"], 
+                    :workers=>0, 
+                    :daemon=>false, 
+                    :mode=>:http, 
+                    :worker_timeout=>60, 
+                    :worker_boot_timeout=>60, 
+                    :worker_shutdown_timeout=>30, 
+                    :remote_address=>:socket, 
+                    :tag=>"coba1", 
+                    :environment=>"development", 
+                    :rackup=>"config.ru", 
+                    :logger=>#<IO:<STDOUT>>, 
+                    :persistent_timeout=>20, 
+                    :first_data_timeout=>30, 
+                    :Verbose=>false, 
+                    :Silent=>false
+                  }, 
+                @plugins=[]>>, 
+                "sinatra.commonlogger"=>true, 
+                "rack.logger"=>#<Logger:0x05b1e458 @level=1, @progname=nil, @default_formatter=#<Logger::Formatter:0x05b1e428 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x05b1e3f8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<IO:<STDERR>>, @mon_mutex=#<Thread::Mutex:0x05b1e3b0>, @mon_mutex_owner_object_id=47772156, @mon_owner=nil, @mon_count=0>>, "rack.request.query_string"=>"draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1554569408437", "rack.request.query_hash"=>{"draw"=>"1", "columns"=>{"0"=>{"data"=>"0", "name"=>"", "searchable"=>"true", "orderable"=>"true", "search"=>{"value"=>"", "regex"=>"false"}}, "1"=>{"data"=>"1", "name"=>"", "searchable"=>"true", "orderable"=>"true", "search"=>{"value"=>"", "regex"=>"false"}}, "2"=>{"data"=>"2", "name"=>"", "searchable"=>"true", "orderable"=>"true", "search"=>{"value"=>"", "regex"=>"false"}}, "3"=>{"data"=>"3", "name"=>"", "searchable"=>"true", "orderable"=>"true", "search"=>{"value"=>"", "regex"=>"false"}}}, "order"=>{"0"=>{"column"=>"0", "dir"=>"asc"}}, "start"=>"0", "length"=>"10", "search"=>{"value"=>"", "regex"=>"false"}, "_"=>"1554569408437"}, "sinatra.route"=>"GET /coba"}
+::1 - - [06/Apr/2019:23:50:08 +0700] "GET /coba?draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1554569408437 HTTP/1.1" 200 - 0.0290
